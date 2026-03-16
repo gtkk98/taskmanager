@@ -138,7 +138,7 @@ CREATE DATABASE taskmanager_db;
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/taskmanager_db
 spring.datasource.username=postgres
-spring.datasource.password=yourpassword
+spring.datasource.password=passowrd
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
