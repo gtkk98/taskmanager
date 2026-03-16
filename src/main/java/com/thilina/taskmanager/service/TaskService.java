@@ -35,7 +35,7 @@ public class TaskService {
     }
 
     public List<Task> getTasksByUser(Long userId) {
-        return taskRepository.findByAssigneeId(userId);
+        return taskRepository.findByAssignedTo_Id(userId);
     }
 
     public Page<Task> getTaskByStatus(Status status, Pageable pageable) {
